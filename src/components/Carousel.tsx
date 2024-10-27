@@ -1,5 +1,10 @@
 "use client";
 import { useEffect } from "react";
+import Image from "next/image";
+import crouselOne from "../../public/crouselOne.webp"
+import crouselTwo from "../../public/crouselTwo.avif"
+import crouselThree from "../../public/crouselThree.jpg"
+
 
 const Carousel = () => {
   useEffect(() => {
@@ -42,41 +47,50 @@ const Carousel = () => {
         aria-label="Slide 3"></button>
     </div>
   
-    {/* <!--Carousel items--> */}
-    <div
-      className="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
-      {/* <!--First item--> */}
-      <div
-        className="relative float-left -mr-[100%] w-full !transform-none opacity-0 transition-opacity duration-[600ms] ease-in-out motion-reduce:transition-none"
-        data-twe-carousel-fade
-        data-twe-carousel-item
-        data-twe-carousel-active>
-        <img
-          src="https://assets.isu.pub/document-structure/230810114817-d519a54a2c84b9d63a18d0831aeae665/v1/36e9696e462e35bf19b83ca3d024ee34.jpeg"
-          className="block w-full max-h-[590px]"
-          alt="" />
-      </div>
-      {/* <!--Second item--> */}
-      <div
-        className="relative float-left -mr-[100%] hidden w-full !transform-none opacity-0 transition-opacity duration-[600ms] ease-in-out motion-reduce:transition-none"
-        data-twe-carousel-fade
-        data-twe-carousel-item>
-        <img
-          src="https://img.freepik.com/free-photo/photorealistic-house-with-wooden-architecture-timber-structure_23-2151302742.jpg"
-          className="block w-full max-h-[590px] "
-          alt="" />
-      </div>
-      {/* <!--Third item--> */}
-      <div
-        className="relative float-left -mr-[100%] hidden w-full !transform-none opacity-0 transition-opacity duration-[600ms] ease-in-out motion-reduce:transition-none"
-        data-twe-carousel-fade
-        data-twe-carousel-item>
-        <img
-          src="https://media.istockphoto.com/id/528487340/photo/beach-living-on-sea-view.jpg?s=612x612&w=0&k=20&c=-txUQWbvHNG6jOAPQrduesK9foBw8hQid6f3Y2GnwYo="
-          className="block w-full max-h-[590px]"
-          alt="" />
-      </div>
-    </div>
+   {/* <!--Carousel items--> */}
+<div
+  className="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
+  {/* <!--First item--> */}
+  <div
+    className="relative float-left -mr-[100%] w-full !transform-none opacity-0 transition-opacity duration-[600ms] ease-in-out motion-reduce:transition-none"
+    data-twe-carousel-fade
+    data-twe-carousel-item
+    data-twe-carousel-active>
+    <Image
+      src={crouselOne}
+      className="block w-full max-h-[590px]"
+      alt=""
+      width={800}
+      height={590}
+    />
+  </div>
+  {/* <!--Second item--> */}
+  <div
+    className="relative float-left -mr-[100%] hidden w-full !transform-none opacity-0 transition-opacity duration-[600ms] ease-in-out motion-reduce:transition-none"
+    data-twe-carousel-fade
+    data-twe-carousel-item>
+    <Image
+      src={crouselTwo}
+      className="block w-full max-h-[590px]"
+      alt=""
+      width={800}
+      height={590}
+    />
+  </div>
+  {/* <!--Third item--> */}
+  <div
+    className="relative float-left -mr-[100%] hidden w-full !transform-none opacity-0 transition-opacity duration-[600ms] ease-in-out motion-reduce:transition-none"
+    data-twe-carousel-fade
+    data-twe-carousel-item>
+    <Image
+      src={crouselThree}
+      className="block w-full max-h-[590px]"
+      alt=""
+      width={800}
+      height={590}
+    />
+  </div>
+</div>
   
     {/* <!--Carousel controls - prev item--> */}
     <button
