@@ -30,7 +30,7 @@ const ChooseAbout = () => {
                 Guidance Of The Expert
               </h5>
               <p className="mb-3 font-normal text-gray-500 dark:text-gray-400">
-                Benefit from our team's seasoned expertise for a smooth buying
+                Benefit from our team seasoned expertise for a smooth buying
                 experience
               </p>
             </div>

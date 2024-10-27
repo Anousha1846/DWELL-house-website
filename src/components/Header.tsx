@@ -15,11 +15,14 @@ const Header = () => {
         <div className="flex items-center justify-between h-16 pr-28">
           <div className="flex items-center">
             <div className="flex-shrink-0 text-4xl font-serif italic font-bold ">
+              <Link href= "/">
               <span className="text-orange-600">D</span>
               <span className="text-orange-900">W</span>
               <span className="text-orange-400">E</span>
               <span className="text-orange-700">L</span>
               <span className="text-orange-300">L</span>
+              </Link>
+             
             </div>
           </div>
           <div className="hidden md:block">

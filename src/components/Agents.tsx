@@ -48,7 +48,7 @@ const Agents = () => {
                         href="#"
                         className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-slate-600 rounded-lg hover:bg-slate-300 hover:text-black "
                       >
-                        Visit Agent's Profile
+                        Visit Agent Profile
                       </a>
                     </div>
                   </div>
@@ -75,7 +75,7 @@ const Agents = () => {
                         href="#"
                         className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-slate-600 rounded-lg hover:bg-slate-300 hover:text-black "
                       >
-                        Visit Agent's Profile
+                        Visit Agent Profile
                       </a>
                     </div>
                   </div>
@@ -102,7 +102,7 @@ const Agents = () => {
                         href="#"
                         className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-slate-600 rounded-lg hover:bg-slate-300 hover:text-black "
                       >
-                        Visit Agent's Profile
+                        Visit Agent Profile
                       </a>
                     </div>
                   </div>
@@ -129,7 +129,7 @@ const Agents = () => {
                         href="#"
                         className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-slate-600 rounded-lg hover:bg-slate-300 hover:text-black "
                       >
-                        Visit Agent's Profile
+                        Visit Agent Profile
                       </a>
                     </div>
                   </div>
@@ -165,7 +165,7 @@ const Agents = () => {
                         href="#"
                         className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-slate-600 rounded-lg hover:bg-slate-300 hover:text-black "
                       >
-                        Visit Agent's Profile
+                        Visit Agent Profile
                       </a>
                     </div>
                   </div>
@@ -192,7 +192,7 @@ const Agents = () => {
                         href="#"
                         className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-slate-600 rounded-lg hover:bg-slate-300 hover:text-black "
                       >
-                        Visit Agent's Profile
+                        Visit Agent Profile
                       </a>
                     </div>
                   </div>
@@ -219,7 +219,7 @@ const Agents = () => {
                         href="#"
                         className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-slate-600 rounded-lg hover:bg-slate-300 hover:text-black "
                       >
-                        Visit Agent's Profile
+                        Visit Agent Profile
                       </a>
                     </div>
                   </div>
@@ -246,7 +246,7 @@ const Agents = () => {
                         href="#"
                         className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-slate-600 rounded-lg hover:bg-slate-300 hover:text-black "
                       >
-                        Visit Agent's Profile
+                        Visit Agent Profile
                       </a>
                     </div>
                   </div>
